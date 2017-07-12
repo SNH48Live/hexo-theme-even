@@ -3,6 +3,8 @@
 // ==============================
 
 .post-content {
+  text-align: justify;
+
   @for $i from 1 through 6 {
     h#{$i} {
       font-weight: 400;
@@ -60,7 +62,7 @@
     margin: 10px 0;
     border-spacing: 0;
     box-shadow: 2px 2px 3px rgba(0,0,0,.125);
-    
+
     th, td {
       padding: 5px 15px;
       border: 1px double $content-table-border-color;
@@ -74,7 +76,7 @@
       color: $theme-color;
       font-size: 1.1em;
       font-family: $global-serif-font-family;
-    
+
       &:hover {
         border-bottom: $post-readMore-border-bottom;
       }
