@@ -23,8 +23,6 @@
 .icon-tumblr:before {
   content: "\e69f";
   font-size: .85em;
-  position: relative;
-  top: -4px;
 }
 .icon-linkedin:before {
   content: "\e60d";
@@ -45,8 +43,6 @@
 }
 .icon-email:before {
   content: "\e605";
-  position: relative;
-  top: -2px;
 }
 .icon-facebook:before {
   content: "\e601";
@@ -56,11 +52,11 @@
 }
 .icon-github:before {
   content: "\e606";
-  position: relative;
-  top: -3px;
 }
 .icon-rss:before {
   content: "\e604";
+  position: relative;
+  top: 3px;
 }
 .icon-google:before {
   content: "\e609";
