@@ -4,10 +4,17 @@
 
 .logo-wrapper {
   float: left;
+  padding: 6px 0;
 
   .logo {
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+  }
+
+  .logo-text {
     font-size: $logo-font-size;
-    font-family: $logo-font-family;
+    vertical-align: middle;
   }
 }
 

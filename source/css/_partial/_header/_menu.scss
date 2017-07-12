@@ -8,9 +8,8 @@
   .menu {
     display: inline-block;
     position: relative;
-    padding-left: 0;
-    padding-right: 25px;
-    font-family: $global-serif-font-family;
+    padding: 0;
+    margin: 1em 0;
 
     .menu-item {
       display: inline-block;
