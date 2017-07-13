@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2015
+since: 2017
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -17,8 +17,10 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-  Home: /
+  # Home: /
   Archives: /archives/
+  YouTube: https://youtube.com/SNH48Live
+  SNH48Live.org: https://snh48live.org
   # Tags: /tags
   # Categories: /categories
   # About: /about
@@ -49,17 +51,17 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: snh48live@gmail.com
   stack-overflow:
-  twitter:
+  twitter: https://twitter.com/snh48live
   facebook:
   linkedin:
   google:
-  github:
+  github: https://github.com/snh48live
   weibo:
   zhihu:
   pocket:
-  tumblr:
+  tumblr: https://snh48live.tumblr.com
 
 # ===========================================
 # Third Party Services Settings
