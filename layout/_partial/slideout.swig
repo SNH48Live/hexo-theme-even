@@ -1,6 +1,7 @@
 <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="{{ url_for('.') }}" class="logo">{{ config.title }}</a>
+    <img class="logo" src="{{ url_for('img/logo-mobile.png') }}" srcset="{{ url_for('img/logo-mobile@2x.png') }} 2x, {{ url_for('img/logo-mobile@3x.png') }} 3x" alt="logo">
+    <a href="{{ url_for('.') }}" class="logo-text">{{ config.title }}</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
