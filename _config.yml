@@ -31,10 +31,10 @@ menu:
 # theme styling
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
 theme:
-  color: Default
+  color: S2 Blue
   toc: true
   search: false
-  fancybox: false
+  fancybox: true
 
 copyright:
   enable: false
